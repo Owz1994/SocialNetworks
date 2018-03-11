@@ -1,16 +1,13 @@
-This is a Match of heavenPool(Ìì³Ø), 
-It provides the data of the production line, the temperature of the machine, the gas, the flow of liquid, the power, the time and so on. Through these factors, a competitor is required to design a model to accurately predict the corresponding characteristic values. This is a typical regression prediction problem. There may be exceptions in the data, the competition encourages the players to play their imagination, creativity and design intelligent algorithms.
+This is a little project by using a bp network to train and predict the social network.
 
+cls_change.py-------train the network and save it
 
-Many methods have been tried like linear model,tree model and Mixing model,but the result isn't very well 
+predict.py ---------reload the network and predict it
 
-
-
+readResult.py-------identify the network parameters
 
 
 Dependencies
 python 3.5
+tensorflow 1.3+ 
 numpy
-pandas
-sklearn
-xgboost
